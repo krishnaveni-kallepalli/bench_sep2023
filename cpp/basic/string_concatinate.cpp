@@ -14,5 +14,7 @@ int main()
 	 s3 = s1+s2;
 	 cout << s3 << endl; 
 	 
+	 s2 = s2.append(s2);
+	 cout << s2 << endl;
 	 return 0; 
 }
