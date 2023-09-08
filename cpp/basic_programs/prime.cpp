@@ -14,3 +14,6 @@ int main()
 	if(flag==0) cout << num << " is primne\n";
 	else cout << num << " is composite\n";
 }
+
+
+

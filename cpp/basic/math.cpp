@@ -10,6 +10,5 @@ int main()
 	cout << "log(2)   : " << log(2) << endl;
 	cout << "round(3.44) : " << round(3.44) << endl;
 	cout << "floor(3.44) : " << floor(3.44) << endl;
-	cout << sqrt(sin(30)) + sqrt(cos(30)) << endl;
 	return 0;
 }
