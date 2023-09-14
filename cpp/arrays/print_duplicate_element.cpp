@@ -1,4 +1,3 @@
-//remove duplicates
 #include<iostream>
 using namespace std;
 int main()
@@ -15,16 +14,6 @@ int main()
 	for(i=0;i<size;i++)
 		for(j=i+1;j<size;j++)
 				if(a[i] == a[j])
-					a[j] = 0;
-	cout << "Display:\n";
-	for(i=0;i<size;i++)
-		cout << a[i];
-		
-	cout << "Display:\n";
-	for(i=0;i<size;i++)
-		if(a[i]!=0)
-			cout << a[i] << endl;
+					cout << "Duplicate Element:" << a[i] << endl;
 	return 0;
 }
-
-

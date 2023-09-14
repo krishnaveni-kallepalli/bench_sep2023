@@ -1,4 +1,4 @@
-//remove duplicates
+
 #include<iostream>
 using namespace std;
 int main()
@@ -15,7 +15,7 @@ int main()
 	for(i=0;i<size;i++)
 		for(j=i+1;j<size;j++)
 				if(a[i] == a[j])
-					a[j] = 0;
+					a[j] = a[i] =0;
 	cout << "Display:\n";
 	for(i=0;i<size;i++)
 		cout << a[i];
@@ -26,5 +26,3 @@ int main()
 			cout << a[i] << endl;
 	return 0;
 }
-
-
